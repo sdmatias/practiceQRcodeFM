@@ -51,6 +51,10 @@ main {
     color: hsl(220, 15%, 55%);
 }
 
+footer {
+    text-align: center;
+}
+
 @media (max-width: 400px) {
     body {
         width: 375px;
