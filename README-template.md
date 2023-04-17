@@ -18,7 +18,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
+This repository contains my solution for the front-end menthor "QR code" challenge.
+I'm Matías, web development student.
 ### Screenshot
 
 ![](./screenshot.jpg)
