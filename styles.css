@@ -11,56 +11,37 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 95%;
+    font-family: Outfit, sans-serif;
 }
 
 .container {
-    width: 320px;
-    height: 497px;
+    max-width: 300px;
+    padding: 16px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
 
 .container img {
-    display: flex;
-    width: 288px;
-    height: 288px;
-    margin: 16px auto;
+    width: 100%;
     border-radius: 10px;
 }
 
 .text-container {
+    font-family: Outfit, sans-serif;
+    text-align: center;
     margin: 16px;
 }
 
 .text-container h1 {
-    font-family: Outfit, sans-serif;
-    font-size: 23px;
-    text-align: center;
+    font-size: 18px;
 }
 
 .text-container p {
-    font-family: Outfit, sans-serif;
+    margin: 20px 0;
     font-size: 15px;
-    margin: 22px;
-    text-align: center;
     color: hsl(220, 15%, 55%);
 }
 
 footer {
     text-align: center;
-}
-
-@media (max-width: 400px) {
-    body {
-        width: 375px;
-        height: 667px;
-    }
 }
