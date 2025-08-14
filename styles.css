@@ -34,7 +34,9 @@ body {
 }
 
 .text-container h1 {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 600;
 }
 
 .text-container p {
